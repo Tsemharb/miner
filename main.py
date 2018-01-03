@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QDesktopWidget, QWidget, QMessageBox
+from PyQt5.QtWidgets import QApplication, QDesktopWidget, QWidget, QMessageBox, QGraphicsView
 from start_window import Ui_Form
 from minefield import Minefield
 import time
@@ -30,7 +30,6 @@ class StartForm(Ui_Form):
             mode = 4
         else:
             mode = 5
-        #self.mode_lbl.setText(str(mode))
 
         if mode == 5:
             self.msg = QMessageBox()
