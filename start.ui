@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>170</width>
-    <height>198</height>
+    <width>254</width>
+    <height>263</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>9</x>
      <y>10</y>
-     <width>148</width>
-     <height>176</height>
+     <width>231</width>
+     <height>239</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -28,50 +28,43 @@
       <item>
        <widget class="QRadioButton" name="easy_rbtn">
         <property name="text">
-         <string>8x8, 16 mines</string>
+         <string>&amp;8x8, 16 mines</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QRadioButton" name="medium_rbtn">
         <property name="text">
-         <string>16x16, 40 mines</string>
+         <string>&amp;16x16, 40 mines</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QRadioButton" name="hard_rbtn">
         <property name="text">
-         <string>30x16, 99 mines</string>
+         <string>16x30, &amp;99 mines</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QRadioButton" name="custom_rbtn">
         <property name="text">
-         <string>custom</string>
+         <string>&amp;custom</string>
         </property>
        </widget>
       </item>
      </layout>
     </item>
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QPushButton" name="ok_btn">
-      <property name="maximumSize">
-       <size>
-        <width>167</width>
-        <height>40</height>
-       </size>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
       <property name="text">
        <string>OK</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLabel" name="mode_lbl">
-      <property name="text">
-       <string/>
       </property>
      </widget>
     </item>
